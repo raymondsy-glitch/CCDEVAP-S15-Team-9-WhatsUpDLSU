@@ -9,7 +9,6 @@ body{
     background:#eef7ec;
 }
 
-/* Navigation */
 
 .navbar{
     background:#087f5b;
@@ -61,7 +60,6 @@ body{
     background:#3f3f3f;
 }
 
-/* Profile */
 
 .profile-section{
     position:relative;
@@ -107,7 +105,6 @@ body{
     cursor:pointer;
 }
 
-/* Search bar */
 
 .search-section{
     width:95%;
@@ -198,7 +195,6 @@ body{
 
 @media (max-width: 768px){
     
-    /* Navigation */
 
     .navbar{
         flex-direction: column;
