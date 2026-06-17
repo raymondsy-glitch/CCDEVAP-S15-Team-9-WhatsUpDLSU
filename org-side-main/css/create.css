@@ -9,7 +9,6 @@ body{
     background:#eef7ec;
 }
 
-/* Navigation */
 
 .navbar{
     background:#087f5b;
@@ -61,7 +60,7 @@ body{
     background:#3f3f3f;
 }
 
-/* Drop down */
+
 
 .profile-section{
     position:relative;
@@ -107,7 +106,6 @@ body{
     cursor:pointer;
 }
 
-/* Forms */
 
 .create-page{
     display:flex;
@@ -204,7 +202,6 @@ body{
 
 @media(max-width: 768px){
 
-    /* Navigation */
 
     .navbar{
         flex-direction: column;
@@ -230,7 +227,6 @@ body{
         font-size: 14px;
     }
 
-    /* Forms */
 
     .create-page{
         margin-top: 20px;
@@ -257,7 +253,6 @@ body{
         min-height: 120px;
     }
 
-    /* Buttons */
 
     .button-group{
         flex-direction: center;
@@ -271,7 +266,6 @@ body{
         width: 100%;
     }
 
-    /* Dropdown */
 
     .dropdown-menu{
         width: 180px;
