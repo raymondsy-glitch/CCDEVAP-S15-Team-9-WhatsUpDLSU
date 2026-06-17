@@ -13,7 +13,7 @@ document.addEventListener("click",(e)=>{
     }
 });
 
-/* Upload */
+
 
 const uploadBox = document.querySelector(".upload-box");
 const fileInput = document.getElementById("eventImage");
