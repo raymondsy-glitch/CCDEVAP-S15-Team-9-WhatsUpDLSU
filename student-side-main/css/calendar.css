@@ -218,11 +218,11 @@ body{
         padding:10px;
     }
 
-    .navbar{
-        background:#f2f2f2;
-        height:auto;
-        padding:12px;
-        color:black;
+    .navbar,
+    .calendar-layout{
+        width:calc(100% - 20px);
+        margin:10px;
+        box-sizing:border-box;
     }
 
     .logo-placeholder{
@@ -280,12 +280,7 @@ body{
         border-top:8px solid #00a651;
     }
 
-    .calendar-layout{
-        display:flex;
-        flex-direction:column;
-        gap:15px;
-        padding:10px 0;
-    }
+    
 
     .legend{
         order:1;
