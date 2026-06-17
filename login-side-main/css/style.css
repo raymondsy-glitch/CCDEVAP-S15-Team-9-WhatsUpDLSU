@@ -44,7 +44,6 @@ body{
     font-size: 1rem;
 }
 
-/* Login */
 
 .login-container{
     width: 100%;
@@ -67,7 +66,6 @@ body{
     font-weight: 600;
 }
 
-/* Forms */
 
 #loginForm{
     display: flex;
@@ -101,7 +99,6 @@ body{
     box-shadow: 0 0 0 3px rgba(255,255,255,0.25);
 }
 
-/* Password */
 
 .password-wrapper{
     flex: 1;
@@ -124,7 +121,6 @@ body{
     background-color: #f0f0f0;
 }
 
-/* Submit */
 
 .submit-btn{
     margin: 1rem auto 2.5rem;
@@ -144,7 +140,6 @@ body{
     background-color: #f1f8f4;
 }
 
-/* Inside card */
 
 .officer-link{
     position: absolute;
@@ -159,7 +154,6 @@ body{
     text-decoration: underline;
 }
 
-/* Outside card */
 
 .register-link{
     margin-top: 12px;
@@ -174,7 +168,6 @@ body{
     text-decoration: underline;
 }
 
-/* Mobile */
 
 @media (max-width: 600px){
     .main-title{
