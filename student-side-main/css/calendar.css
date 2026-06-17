@@ -219,11 +219,13 @@ body{
     }
 
     .navbar,
-    .calendar-layout{
-        width:calc(100% - 20px);
-        margin:10px;
+    .calendar-layout,
+    .dropdown-menu{
+        width:100%;
+        max-width:100%;
         box-sizing:border-box;
     }
+
 
     .logo-placeholder{
         width:30px;
