@@ -126,18 +126,14 @@ body{
     display:flex;
     flex-direction:column;
     align-items:center;
-
     margin-top:80px;
 }
 
 .profile-container{
     width:600px;
     max-width:90%;
-
     background:#087f5b;
-
     border-radius:25px;
-
     padding:40px;
 }
 
@@ -147,11 +143,8 @@ body{
 
 .form-group label{
     display:block;
-
     color:white;
-
     margin-bottom:10px;
-
     font-weight:600;
 }
 
@@ -161,41 +154,29 @@ body{
 
 .input-wrapper input{
     width:100%;
-
     padding:15px 50px 15px 15px;
-
     border:none;
     border-radius:15px;
-
     font-size:1rem;
 }
 
 .input-icon{
     position:absolute;
-
     right:18px;
     top:50%;
-
     transform:translateY(-50%);
-
     font-size:1.1rem;
 }
 
 
 .update-btn{
     margin-top:25px;
-
     border:none;
-
     border-radius:999px;
-
     padding:12px 35px;
-
     background:#087f5b;
     color:white;
-
     cursor:pointer;
-
     font-weight:600;
 }
 @media screen and (max-width:768px){
