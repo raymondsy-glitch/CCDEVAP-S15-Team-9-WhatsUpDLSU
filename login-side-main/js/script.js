@@ -14,5 +14,21 @@ toggleButton.addEventListener("click",() => {
 
 document.getElementById("loginForm").addEventListener("submit", (event) => {
     event.preventDefault();
-    alert("Login submitted.");
+    alert("Login successful.");
+    const page = window.location.pathname.split("/").pop();
+
+    let redirectPath;
+    switch (page) {
+        case "index.html":
+            redirectPath = "../student-side-main/dashboard.html";
+            break;
+        case "admin-login.html":
+            redirectPath = "../admin-side-main/dashboard.html";
+            break;
+        case "officer-login.html":
+            redirectPath = "../org-side-main/dashboard.html";
+            break;
+    }
+
+    window.location.href = redirectPath;
 });
